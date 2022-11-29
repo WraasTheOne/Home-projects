@@ -2,10 +2,10 @@
   "name": "home-server",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
+  "scripts": { 
+    "dev": "node dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H 192.168.0.38 -p 80",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
     "@types/react-dom": "18.0.9",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
+    "express": "^4.18.2",
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
