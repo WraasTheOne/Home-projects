@@ -1,0 +1,28 @@
+/* App.css */
+.team-box {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-name {
+  font-weight: bold;
+}
+
+.team-points {
+  background-color: #ccc;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
